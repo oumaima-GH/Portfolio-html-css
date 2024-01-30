@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #7575f1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+header h1 {
+    color: #fff;
+}
+
+.main-nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.main-nav ul li {
+    margin-left: 15px; /* Adjust spacing between navigation items */
+}
+
+
+.main-nav ul li a {
+    color: #fff;
+    font-size: larger;
+    text-decoration: none;
+
+}
+
+
+
+img{
+    height: 380px;
+
+}
+
+/* Style for the sections */
+section {
+    margin-bottom: 20px;
+}
+
+/* Style for the form inputs */
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+/* Style for the submit button */
+form button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #7575f1;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
