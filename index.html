@@ -11,67 +11,132 @@
 </head>
 <body>
     <!-- Navbar -->
-    <header>
-        <h1>Logo</h1>
-  
-        <nav class="main-nav">
-            <ul>
-                 <li><a href="#home">Home</a></li>
-                 <li><a href="#about">About</a></li>
-                 <li><a href="#work">Work</a></li>
-                 <li><a href="#resume">Resume</a></li>
-                 <li><a href="#contact">Contact</a></li>
-            </ul>
+    <header class="header">
+        <a href="#home" class="logo">OE.</a>
+        <nav class="navbar">
+            
+                 <a href="#home" class="active">Home</a>
+                 <a href="#about">About</a>
+                 <a href="#work">Work</a>
+               
+                 <a href="#contact">Contact</a>
+            
         </nav>
     </header>
-    <div>
-        <img src="undraw_undraw_undraw_undraw_website_o7n3_bucy_30uo_(1)_d6br.png" alt="website illustration">
-    </div>
 
+
+       <!-- home section -->
+        <section class="home" id="home">
+            <div class="home-content">
+                <h3>Hello,</h3>
+                <h1>I'm Oumaima.</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi hic nobis,
+                    asperiores distinctio nemo beatae.</p>
+                    <a href="#" class="btn">Dowload Resume</a>
+            </div>
+            <div class="main-img">
+                <img src="Website designer-bro.png" alt="website illustration">
+            </div>
+        </section>
+  
     <!-- about section -->
-    <section id="about">
-        <h2 style="color: #7575f1;">About Me</h2>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore facilis fugit iure magni voluptatum perspiciatis atque repudiandae sunt ut? Maxime!</p>
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="Hand coding-rafiki.png" alt="web illustration">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About Me</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore facilis fugit iure magni
+            voluptatum perspiciatis atque repudiandae sunt ut? Maxime!</p>
+        </div>
+        
     </section>
 
     <!-- work section -->
-    <section id="work">
-        <h2  style="color: #7575f1;">Work</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit sit ducimus odio earum at aut ratione nam odit vitae, repellendus cum doloribus ipsum numquam magnam voluptate voluptatibus rem fugit quis?</p>
+    <section class="work" id="work">
+        <h2 class="heading">Work</h2>
+        <div class="timeline-itmes">
+            <div class="timeline-item">
+             <div class="timeline-dot"></div>
+             <div class="timeline-date">2018</div>
+              <div class="timeline-content">
+                <h3>Job 1</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quibusdam deserunt ut cum repellat atque quia.
+                    Officiis nesciunt.</p>
+                </div>
+             </div>
+            <div class="timeline-item">
+             <div class="timeline-dot"></div>
+             <div class="timeline-date">2019</div>
+              <div class="timeline-content">
+                <h3>Job 2</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quibusdam deserunt ut cum repellat atque quia.
+                    Officiis nesciunt.</p>
+                </div>
+             </div>
+            <div class="timeline-item">
+             <div class="timeline-dot"></div>
+             <div class="timeline-date">2020</div>
+              <div class="timeline-content">
+                <h3>Job 3</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quibusdam deserunt ut cum repellat atque quia.
+                    Officiis nesciunt.</p>
+                </div>
+             </div>
+            <div class="timeline-item">
+             <div class="timeline-dot"></div>
+             <div class="timeline-date">2021</div>
+              <div class="timeline-content">
+                <h3>Job 4</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quibusdam deserunt ut cum repellat atque quia.
+                    Officiis nesciunt.</p>
+                </div>
+             </div>
+        </div>
+
+  
+       
     </section>
 
-    <!-- resume section -->
-    <section id="resume">
-        <h2  style="color: #7575f1;">Resume</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, eveniet!</p>
-    </section>
 
     <!-- contact section -->
-    <section id="contact">
-        <h2  style="color: #7575f1;">Contact Me</h2>
-        <form>
-            <div>
-                <label for="name">Name:</label>
-                <input type="text" id="name" required>
-            </div>
-           <div>
-            <label for="email">Email:</label>
-            <input type="email" id="email" required>
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact Me</h2>
+        <form action="#">
+            <div class="input">
+                
+                <input type="text" id="name" placeholder="Full Name" required>
+                <input type="email" id="email" placeholder="Email" required>
            </div>
-           <div>
-            <label for="message">Message:</label>
-            <textarea id="message" required></textarea>
-           </div>
+          
+            <textarea id="message" cols="80" rows="8" placeholder="Message"></textarea>
+           <input type="submit" class="btn" value="Send Message">
            
-            <button style="background-color: #7575f1; color: #fff;" type="submit">Submit</button>
         </form>
     </section>
 
 
 
     <!-- footer -->
-    <footer>
-        <p style="background-color: #7575f1; color: #fff;">&copy; 2024 Oumaima</p>
+    <footer class="footer">
+        <ul class="list">
+            <li>
+                <a href="#">About Me</a>
+            </li>
+            <li>
+                <a href="#">Work</a>
+            </li>
+            <li>
+                <a href="#">Contact</a>
+            </li>
+            <li>
+                <a href="#">Privacy Policy</a>
+            </li>
+            <li>
+                <a href="#">Terms and Services</a>
+            </li>
+        </ul>
+        <p class="copyright">&copy; 2024 Oumaima | All Rights Reserved</p>
     </footer>
 </body>
 </html>
